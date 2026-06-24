@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — GiftSmart</title>
+  <meta name="description" content="GiftSmart Privacy Policy" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --gold: #C9A84C; --dark: #111318; --text: #F0EDE8; --text-muted: #8A8FA8; --card-border: rgba(255,255,255,0.08); }
+    body { font-family: 'Inter', sans-serif; background: var(--dark); color: var(--text); line-height: 1.7; }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 2.5rem; border-bottom: 1px solid var(--card-border); }
+    .nav-brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
+    .nav-brand img { width: 32px; height: 32px; border-radius: 8px; object-fit: cover; }
+    .nav-brand span { font-size: 1.1rem; font-weight: 700; color: var(--text); }
+    .nav-brand span em { font-style: normal; color: var(--gold); }
+    .back-link { color: var(--gold); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
+    .back-link:hover { text-decoration: underline; }
+    main { max-width: 760px; margin: 0 auto; padding: 4rem 1.5rem; }
+    h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .last-updated { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 1.15rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.5rem; color: var(--gold); }
+    p { color: #C8C4BE; margin-bottom: 0.85rem; font-size: 0.97rem; }
+    ul { color: #C8C4BE; padding-left: 1.5rem; margin-bottom: 0.85rem; font-size: 0.97rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--gold); }
+    footer { border-top: 1px solid var(--card-border); padding: 2rem 1.5rem; text-align: center; color: var(--text-muted); font-size: 0.82rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-brand">
+      <img src="logo.png" alt="GiftSmart" />
+      <span>Gift<em>Smart</em></span>
+    </a>
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </nav>
+
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: 24 June 2026</p>
+
+    <p>Welcome to GiftSmart ("we", "us", or "our"). This Privacy Policy explains how we collect, use, and protect your information when you use the GiftSmart iOS application and website (giftsmart.app).</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect the following types of information:</p>
+    <ul>
+      <li><strong>Account information:</strong> Email address and password when you create an account.</li>
+      <li><strong>Contact information you enter:</strong> Names, dates of birth, preferences, and event details for people you add to GiftSmart. This data is stored securely and used solely to provide gift recommendations.</li>
+      <li><strong>Usage data:</strong> How you interact with the app, including gift searches performed and affiliate links clicked.</li>
+      <li><strong>Push notification token:</strong> To send you event reminders (only if you grant permission).</li>
+      <li><strong>Waitlist email:</strong> If you sign up on our website, we collect your email address to notify you of our launch.</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>To provide and improve the GiftSmart service.</li>
+      <li>To send event reminder push notifications.</li>
+      <li>To generate gift recommendations tailored to your contacts' preferences.</li>
+      <li>To communicate with you about the app (launch updates, support).</li>
+      <li>To analyse aggregate, anonymised usage patterns to improve the product.</li>
+    </ul>
+
+    <h2>3. Affiliate Links &amp; Third-Party Stores</h2>
+    <p>GiftSmart participates in affiliate advertising programs including the Amazon Associates Program, and programs run by Admitad, eBay Partner Network, and Commission Factory. When you click through to a product and make a purchase, we may earn a small commission at no additional cost to you.</p>
+    <p>We do not share your personal data with affiliate partners. When you click a link, you are subject to the privacy policy of the destination website (e.g., Amazon, AliExpress, eBay).</p>
+    <p><strong>Amazon disclosure:</strong> As an Amazon Associate, GiftSmart earns from qualifying purchases.</p>
+
+    <h2>4. AI-Powered Recommendations</h2>
+    <p>Gift recommendations are generated using an AI language model (OpenAI). When generating suggestions, we send anonymised product information and generalised preference categories (e.g., "likes gardening, budget $50–$100 AUD") to OpenAI's API. We do not send personally identifiable information such as names or contact details to OpenAI.</p>
+
+    <h2>5. Data Storage &amp; Security</h2>
+    <p>Your data is stored securely on Supabase (Postgres database hosted on AWS). We use row-level security to ensure your data is accessible only to your account. Data is encrypted in transit (TLS) and at rest.</p>
+
+    <h2>6. Data Sharing</h2>
+    <p>We do not sell your personal information. We do not share your personal data with third parties except:</p>
+    <ul>
+      <li>Service providers necessary to operate the app (Supabase, OpenAI, Expo) — bound by their own privacy policies.</li>
+      <li>When required by law or to protect our rights.</li>
+    </ul>
+
+    <h2>7. Your Rights</h2>
+    <p>You may request deletion of your account and all associated data at any time by contacting us at <a href="mailto:hello@giftsmart.app">hello@giftsmart.app</a>. Deletion will be completed within 30 days.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>GiftSmart is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this policy periodically. We will notify users of material changes via the app or email.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>Questions about this policy? Contact us at <a href="mailto:hello@giftsmart.app">hello@giftsmart.app</a> or via our <a href="https://www.facebook.com/profile.php?id=61591029912722" target="_blank" rel="noopener">Facebook page</a>.</p>
+  </main>
+
+  <footer>© 2026 GiftSmart. All rights reserved.</footer>
+</body>
+</html>
